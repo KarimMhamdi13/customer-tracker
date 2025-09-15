@@ -4,8 +4,8 @@ const customers = [
   { name: "Candace Clark", email: "CClark@nintendo.com", purchases: ["Soldering Iron", "Monster Energy"] },
 ];
 
-const newCostumer = { name: "Dean David", email: "DoubleD@gmail.com", purchases: ["Smartphone", "Phone Case"] };
-customers.push(newCostumer);
+const newCustomer = { name: "Dean David", email: "DoubleD@gmail.com", purchases: ["Smartphone", "Phone Case"] };
+customers.push(newCustomer);
 
 customers.shift();
 
