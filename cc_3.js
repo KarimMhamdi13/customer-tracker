@@ -9,4 +9,12 @@ customers.push(newCostumer);
 
 customers.shift();
 
+customers[0].email = "billy.bob97@google.com";
 
+customers[1].purchases.push("Bluetooth Speaker");
+
+customers.forEach((customers) => {
+  console.log(
+    `Name: ${customers.name}, E-mail: ${customers.email}, Total Purchases: ${customers.purchases.length}`
+  );
+});
